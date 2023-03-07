@@ -20,7 +20,7 @@ class Program
     }
     static string PromptUserName() {
             Console.Write("Please enter your name: ");
-            string name = Console.RedLine();
+            string name = Console.ReadLine();
 
             return name;
     }
@@ -34,7 +34,7 @@ class Program
             int square = number * number;
             return square;
     }
-    static void Display( string name, int square){
+    static void DisplayResult( string name, int square){
             Console.WriteLine($"{name}, the square of your number is {square}");
     }
     
