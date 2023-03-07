@@ -20,8 +20,9 @@ class Program
         myResume._name = "Alison Rose";
 
         myResume._jobs.Add(job1);
+        myResume._jobs.Add(job2);
         
 
-        Console.WriteLine(job1._jobTitle, job1._company);
+        myResume.Display();
     }
 }
